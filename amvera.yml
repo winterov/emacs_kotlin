@@ -1,0 +1,12 @@
+meta:
+  environment: jvm
+  toolchain:
+    name: gradle
+    version: 17
+build:
+  artifacts:
+    application/build/libs/*.jar: /
+run:
+  jarName: application.jar
+  persistenceMount: /data
+  containerPort: 80

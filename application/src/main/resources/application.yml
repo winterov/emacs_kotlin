@@ -1,0 +1,19 @@
+server:
+  port: 80
+  tomcat:
+    accesslog:
+      enabled: true
+spring:
+  liquibase:
+    change-log: db/changelog/master.yaml
+
+logging:
+  level:
+    org:
+      springframework:
+        jdbc:
+          core: TRACE
+        context: DEBUG
+
+ofdata:
+  key: MVZE7dtgCniGVwgV

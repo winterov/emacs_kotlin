@@ -1,0 +1,5 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/notification/create/notification_create.yaml
+  - include:
+     file: db/changelog/notification/complete/notification_complete.yaml
