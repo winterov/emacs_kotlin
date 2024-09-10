@@ -1,3 +1,11 @@
 /buildSrc/.gradle/
 /.gradle/
 /.idea/
+/users/build/
+/properties/build/
+/notification/build/
+/gradle/
+/customers/build/
+/commons/build/
+/buildSrc/build/
+/application/build/
